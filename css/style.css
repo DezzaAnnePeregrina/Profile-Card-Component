@@ -1,0 +1,116 @@
+/* css custom properties */
+:root {
+    /* ## Colors */
+
+    /* primary */
+    --clr-Dark-cyan: hsl(185, 75%, 39%);
+    --clr-Dark-grayish-blue: hsl(227, 10%, 46%);
+    --clr-Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+
+    /* neutral */
+    --clr-Dark-gray: hsl(0, 0%, 59%);
+
+    /* body */
+    --fs-base: 18px;
+
+    /* font */
+    --ff-primary: 'Kumbh Sans', sans-serif;
+    --fw-regular: 400;
+    --fw-bold: 700;
+
+}
+
+*{
+    box-sizing: border-box;
+    font-family: var(--ff-primary);
+}
+
+html{
+    font-size: var(--fs-base);
+}
+
+
+body{
+    min-height: 100vh;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--clr-Dark-cyan);
+    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+
+    background-position: top 190% left -80%, bottom 190% right -80%;
+    background-repeat: no-repeat; 
+}
+
+
+main{
+    border-radius: .6rem;
+    overflow: hidden;
+    max-width: 375px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    min-width: 375px;
+}
+
+
+.pattern{
+    height: 8rem;
+    background-image: url(/images/bg-pattern-card.svg);
+}
+
+.info{
+    padding: 1.5rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -80px;
+}
+
+img{
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.victor{
+    display:flex;
+    flex-direction: row;
+    gap: .5rem;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+.info h1{
+    color: var(--clr-Very-dark-desaturated-blue);
+    font-weight: var(--fw-bold);
+    
+}
+
+.victor span{
+    font-size: 1rem;
+    
+}
+
+span {
+    color: var(--clr-Dark-grayish-blue);
+    font-size: .8rem;
+}
+
+.stat{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    border-top: 1px solid hsla(0, 0%, 59%, .5);
+    padding: 1.5rem;
+}
+
+.stat p{
+    color: var(--clr-Very-dark-desaturated-blue);
+    font-weight: var(--fw-bold);
+    margin-bottom: .3rem;
+}
+

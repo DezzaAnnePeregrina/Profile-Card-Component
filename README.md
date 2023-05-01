@@ -38,8 +38,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/profile-card-component-eF2Dj8Iu10]
-- Live Site URL: [https://keen-tulumba-4722a3.netlify.app/]
+- Solution URL: https://www.frontendmentor.io/solutions/profile-card-component-eF2Dj8Iu10
+- Live Site URL: https://keen-tulumba-4722a3.netlify.app/
 
 ## My process
 
@@ -96,8 +96,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [https://www.frontendmentor.io/profile/DezzaAnnePeregrina]
-- Twitter - [https://twitter.com/DezzaPeregrina]
+- Frontend Mentor - https://www.frontendmentor.io/profile/DezzaAnnePeregrina
+- Twitter - https://twitter.com/DezzaPeregrina
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
